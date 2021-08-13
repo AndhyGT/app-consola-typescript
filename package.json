@@ -1,0 +1,20 @@
+{
+  "name": "typescript-consola-cli",
+  "version": "1.0.0",
+  "description": "app de typescript de consola",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Andhy Ralac",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "lowdb": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.3",
+    "@types/lowdb": "^1.0.11"
+  }
+}
