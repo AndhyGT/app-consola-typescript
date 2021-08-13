@@ -2,7 +2,7 @@ export class TaskItem {
     public constructor(
         public id: number,
         public task: string,
-        public complete: boolean
+        public complete: boolean = false
     ) { }
 
     printDetails(): void {
